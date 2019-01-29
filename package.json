@@ -1,31 +1,25 @@
 {
-  "name": "bhujyo",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "Dr. B&#39;s Physics Portal",
-  "author": "Novella C.",
-  "private": true,
+  "description": "Landing page for natours",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "@nuxtjs/bulma": "^1.2.0"
-  },
+  "author": "Jonas",
+  "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.11.0",
-    "nuxt-sass-resources-loader": "^2.0.5",
-    "sass-loader": "^7.1.0",
-    "vue-style-loader": "^4.1.2"
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
   }
 }

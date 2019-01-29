@@ -1,0 +1,25 @@
+.diagonal {
+
+  &__photo {
+    box-shadow: 0 1.5rem 3rem rgba(9, 7, 33, 0.2);
+    max-width: 100%;
+    margin-top: -15rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8));
+    // background-size: cover;
+    background-position: top;
+    height: 95vh;
+    object-fit: cover;
+    object-position: right;
+    position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+        clip-path: polygon(0 8%, 100% 0, 100% 95vh, 0 95vh);
+    }
+  }
+
+
+}
