@@ -2,21 +2,6 @@
 
 > Dr. B&#39;s Physics Portal
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+> Theme adapted from the excellent online course Advanced CSS and Sass by Jonas Schmedtmann.
+> Content is property of Dr. Bhubanjyoti Bhattacharya ("Dr. B").
+> Many of the images here are used courtesy of [CERN](https://cds.cern.ch/collection/Photos).

@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "drbbhattacharya",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Portfolio site for Dr. B Bhattacharya",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -13,13 +13,16 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  "author": "Jonas",
+  "author": "NovellaC",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^6.1.2"
+  },
+  "dependencies": {
+    "tar": "^4.4.8"
   }
 }
