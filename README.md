@@ -1,6 +1,6 @@
 # bhujyo
 
-> Dr. B&#39;s Physics Portal
+> Dr. B's Physics Portal
 
 > Theme adapted from the excellent online course Advanced CSS and Sass by Jonas Schmedtmann.
 > Content is property of Dr. Bhubanjyoti Bhattacharya ("Dr. B").
