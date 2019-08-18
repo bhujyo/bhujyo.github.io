@@ -779,9 +779,9 @@ body {
     height: 3.5rem; }
   .header__text-box {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 42%;
+    left: 20%;
+    transform: translate(0%, -50%);
     text-align: center; }
 
 .navigation__checkbox {
