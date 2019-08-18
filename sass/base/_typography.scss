@@ -17,7 +17,8 @@ body {
         display: block;
         font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 3.5rem;
+        letter-spacing: 1rem;
+        text-transform: capitalize;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
