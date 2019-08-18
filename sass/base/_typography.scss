@@ -8,8 +8,6 @@ body {
 
 .heading-primary {
   color: $color-white;
-  text-transform: uppercase;
-
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
@@ -18,8 +16,6 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 1rem;
-    text-transform: capitalize;
-
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
