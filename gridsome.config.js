@@ -8,7 +8,7 @@ module.exports = {
   siteName: "Dr. B",
   siteDescription:
     "Portfolio and Physics Learning Resources, Dr. Bhujyo Bhattacharya",
-  siteUrl: "https://bbsite.netlify.app/",
+  siteUrl: "https://bhujyo.github.io/",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
@@ -72,13 +72,13 @@ module.exports = {
         contentTypeName: "Post",
         feedOptions: {
           title: "Physics Posts from Dr. B",
-          feed_url: "https://bbsite.netlify.app/rss.xml",
-          site_url: "https://bbsite.netlify.app/",
+          feed_url: "https://bhujyo.github.io/rss.xml",
+          site_url: "https://bhujyo.github.io/",
         },
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.summary,
-          url: "https://bbsite.netlify.app/" + node.path,
+          url: "https://bhujyo.github.io/" + node.path,
           author: "BB",
           date: node.date,
         }),
