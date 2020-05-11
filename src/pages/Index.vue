@@ -122,7 +122,7 @@
               </div>
               <div class="card__side card__side--back card__side--back-2">
                 <div class="card__cta">
-                  <a href="assets/BB_CV.Long.pdf" class="btn btn--white"
+                  <a href="assets/static/BB_CV.Long.pdf" class="btn btn--white"
                     >Curriculum Vitae</a
                   >
                 </div>
