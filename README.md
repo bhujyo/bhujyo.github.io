@@ -2,7 +2,7 @@
 
 ## Demo URL
 
-[https://bbsite.netlify.app/](https://bbsite.netlify.app/)
+[https://bhujyo.github.io/](https://bhujyo.github.io/)
 
 ## Features
 
@@ -24,9 +24,11 @@
 
 1. Install Gridsome CLI tool if you don't have it: `npm install --global @gridsome/cli`
 1. Clone the repo
-1. `cd bbsite`
-1. `yarn`
+1. `cd bhujyo.github.io`
+1. `npm install`
 1. `gridsome develop` to start a local dev server at `http://localhost:8080`
+1. Do work and commit, etc.
+1. When ready to deploy run `npm run deploy`
 
 ## Notes
 
